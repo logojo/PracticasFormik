@@ -1,0 +1,49 @@
+[
+    {
+        "type": "text",
+        "name": "fistname",
+        "placeholder": "fistName",
+        "label": "first Name",
+        "value": "",
+        "validations": [
+            { "type" : "required" },
+            { "type" : "min", "value" : 5 }
+        ]
+    },
+    {
+        "type": "text",
+        "name": "lastname",
+        "placeholder": "lastName",
+        "label": "last Name",
+        "value": "",
+        "validations": [
+            { "type" : "required" }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "email",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            { "type" : "required" },
+            { "type" : "email" }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "favorite Game",
+        "value": "",
+        "options": [
+           { "value": 1, "label": "Super Smash" },
+           { "value": 2, "label": "Metal Gear" },
+           { "value": 3, "label": "Resident Evil" }
+        ],
+        "validations": [
+            { "type" : "required" }
+        ]
+    }
+
+]

@@ -4,3 +4,5 @@ export { FormikComponents } from "./FormikComponents";
 export { FormikYup } from "./FormikYup";
 export { Home } from "./Home";
 export { Register } from "./Register";
+export { RegisterFormik } from "./RegisterFormik";
+export { FormikDinamic } from "./FormikDinamic";
